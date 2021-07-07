@@ -10,19 +10,20 @@ const { Header, Content, Footer } = Layout;
 
 const Routes = (props) => {
   return (
-    <Layout className="container">
-      <Header className="header">
-        <HeaderComponent />
-      </Header>
-      <Content>
-        <Switch>
-          <Route exact path="/" component={LandingPage} />
-        </Switch>
-      </Content>
-      <Footer className="footer">
-        <FooterComponent />
-      </Footer>
-    </Layout>
+    // <Layout className="container">
+    //   <Header className="header">
+    //     <HeaderComponent />
+    //   </Header>
+    //   <Content>
+    //     <Switch>
+    //       <Route exact path="/" component={LandingPage} />
+    //     </Switch>
+    //   </Content>
+    //   <Footer className="footer">
+    //     <FooterComponent />
+    //   </Footer>
+    // </Layout>
+    <h1>Hello</h1>
   );
 };
 
