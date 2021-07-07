@@ -12,7 +12,7 @@ const Routes = (props) => {
   return (
     <Layout className="container">
       <Header className="header">
-        <h1>footer</h1>
+        <h1>header</h1>
         {/* <HeaderComponent /> */}
       </Header>
       <Content>
