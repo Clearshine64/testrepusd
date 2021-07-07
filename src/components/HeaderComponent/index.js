@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { /*Menu,*/ Button } from "antd";
-import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+// import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
 // import NavbarList from "../../const/navbar";
 
@@ -34,7 +34,7 @@ export default () => {
         })}
       </Menu> */}
       <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
-        {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+        {/* {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />} */}
       </Button>
     </>
   );
