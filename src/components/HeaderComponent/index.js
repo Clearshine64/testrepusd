@@ -22,7 +22,7 @@ export default () => {
       <Menu
         theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={["1"]}
+        //defaultSelectedKeys={["1"]}
         className="menu"
       >
         {NavbarList.map((item, index) => {
