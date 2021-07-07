@@ -1,8 +1,8 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+// import { Route, Switch } from "react-router-dom";
 import { Layout } from "antd";
 
-import LandingPage from "./pages/LandingPage";
+// import LandingPage from "./pages/LandingPage";
 import HeaderComponent from "./components/HeaderComponent";
 // import FooterComponent from "./components/FooterComponent";
 

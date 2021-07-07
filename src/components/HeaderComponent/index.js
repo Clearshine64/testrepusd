@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { Menu, Button } from "antd";
-import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+// import { Menu, Button } from "antd";
+// import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
-import NavbarList from "../../const/navbar";
+// import NavbarList from "../../const/navbar";
 
-import { RepusdSmallMark } from "../../img";
+// import { RepusdSmallMark } from "../../img";
 import "./style.css";
 
 export default () => {
-  const [menuFoldState, setMenuFoldState] = useState(false);
+  // const [menuFoldState, setMenuFoldState] = useState(false);
 
-  const toggleCollapsed = () => {
-    setMenuFoldState(!menuFoldState);
-  };
+  // const toggleCollapsed = () => {
+  //   setMenuFoldState(!menuFoldState);
+  // };
 
   return (
     <h1>HeaderComponent</h1>
