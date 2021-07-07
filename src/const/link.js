@@ -3,142 +3,142 @@ import {
   InstagramOutlined,
   FacebookFilled,
   YoutubeOutlined,
-} from '@ant-design/icons';
+} from "@ant-design/icons";
 
 export default [
   {
-    name: 'QUICK LINK',
+    name: "QUICK LINK",
     childLink: [
       {
         icon: null,
-        name: 'Aave Protocal',
-        url: '',
+        name: "Aave Protocal",
+        url: "",
       },
       {
         icon: null,
-        name: 'Develops',
-        url: '',
+        name: "Develops",
+        url: "",
       },
       {
         icon: null,
-        name: 'Security',
-        url: '',
+        name: "Security",
+        url: "",
       },
       {
         icon: null,
-        name: 'aTokens',
-        url: '',
+        name: "aTokens",
+        url: "",
       },
       {
         icon: null,
-        name: 'Bug Bonuty',
-        url: '',
+        name: "Bug Bonuty",
+        url: "",
       },
       {
         icon: null,
-        name: 'Flash Loans',
-        url: '',
+        name: "Flash Loans",
+        url: "",
       },
-    ]
+    ],
   },
   {
-    name: 'RESOURCES',
+    name: "RESOURCES",
     childLink: [
       {
         icon: null,
-        name: 'Rate Switching',
-        url: ''
+        name: "Rate Switching",
+        url: "",
       },
       {
         icon: null,
-        name: 'Whitepaper',
-        url: ''
+        name: "Whitepaper",
+        url: "",
       },
       {
         icon: null,
-        name: 'Aavenomics',
-        url: ''
+        name: "Aavenomics",
+        url: "",
       },
       {
         icon: null,
-        name: 'Ecosystem',
-        url: ''
+        name: "Ecosystem",
+        url: "",
       },
       {
         icon: null,
-        name: 'Careers',
-        url: ''
+        name: "Careers",
+        url: "",
       },
       {
         icon: null,
-        name: 'Branding',
-        url: ''
+        name: "Branding",
+        url: "",
       },
-    ]
+    ],
   },
   {
-    name: 'SUPPORT',
+    name: "SUPPORT",
     childLink: [
       {
         icon: null,
-        name: 'Blog',
-        url: ''
+        name: "Blog",
+        url: "",
       },
       {
         icon: null,
-        name: 'Careers',
-        url: ''
+        name: "Careers",
+        url: "",
       },
       {
         icon: null,
-        name: 'Partnership',
-        url: ''
+        name: "Partnership",
+        url: "",
       },
       {
         icon: null,
-        name: 'Terms of Services',
-        url: ''
+        name: "Terms of Services",
+        url: "",
       },
       {
         icon: null,
-        name: 'Privacy',
-        url: ''
+        name: "Privacy",
+        url: "",
       },
       {
         icon: null,
-        name: 'Contract us',
-        url: ''
+        name: "Contract us",
+        url: "",
       },
-    ]
+    ],
   },
   {
-    name: 'FOLLOW US ON',
+    name: "FOLLOW US ON",
     childLink: [
       {
-        icon: <TwitterCircleFilled />,
-        name: 'Twitter',
-        url: '',
+        icon: null, //icon: <TwitterCircleFilled />,
+        name: "Twitter",
+        url: "",
       },
       {
-        icon: <InstagramOutlined />,
-        name: 'Instagram',
-        url: '',
+        icon: null, //icon: <InstagramOutlined />,
+        name: "Instagram",
+        url: "",
       },
       {
-        icon: <InstagramOutlined />,
-        name: 'Pinterest',
-        url: '',
+        icon: null, //icon: <InstagramOutlined />,
+        name: "Pinterest",
+        url: "",
       },
       {
-        icon: <FacebookFilled />,
-        name: 'Facebook',
-        url: '',
+        icon: null, //icon: <FacebookFilled />,
+        name: "Facebook",
+        url: "",
       },
       {
-        icon: <YoutubeOutlined />,
-        name: 'Youtube',
-        url: '',
+        icon: null, //icon: <YoutubeOutlined />,
+        name: "Youtube",
+        url: "",
       },
-    ]
-  }
-]
+    ],
+  },
+];
