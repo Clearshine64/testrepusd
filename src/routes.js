@@ -3,8 +3,8 @@ import React from "react";
 import { Layout } from "antd";
 
 // import LandingPage from "pages/LandingPage";
-import HeaderComponent from "./components/HeaderComponent";
-import FooterComponent from "./components/FooterComponent";
+// import HeaderComponent from "./components/HeaderComponent";
+// import FooterComponent from "./components/FooterComponent";
 
 const { Header, Content, Footer } = Layout;
 
@@ -12,7 +12,8 @@ const Routes = (props) => {
   return (
     <Layout className="container">
       <Header className="header">
-        <HeaderComponent />
+        <h1>header</h1>
+        {/* <HeaderComponent /> */}
       </Header>
       {/* <Content>
         <Switch>
@@ -20,7 +21,8 @@ const Routes = (props) => {
         </Switch>
       </Content> */}
       <Footer className="footer">
-        <FooterComponent />
+        <h1>footer</h1>
+        {/* <FooterComponent /> */}
       </Footer>
     </Layout>
   );
