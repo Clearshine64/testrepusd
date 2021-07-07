@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Menu, Button } from "antd";
-import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+// import { Menu, Button } from "antd";
+// import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
-import NavbarList from "../../const/navbar";
+// import NavbarList from "../../const/navbar";
 
 // import { RepusdSmallMark } from "../../img";
 import "./style.css";
@@ -17,7 +17,7 @@ export default () => {
   return (
     <>
       <div className="logo">{/* <img src={RepusdSmallMark} /> */}</div>
-      <Menu
+      {/* <Menu
         theme="dark"
         mode="horizontal"
         defaultSelectedKeys={["1"]}
@@ -30,10 +30,10 @@ export default () => {
             </Menu.Item>
           );
         })}
-      </Menu>
-      <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
+      </Menu> */}
+      {/* <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
         {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-      </Button>
+      </Button> */}
     </>
   );
 };
