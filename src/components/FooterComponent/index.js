@@ -2,7 +2,7 @@ import React from "react";
 import { Divider, Row, Col } from "antd";
 
 import LinkList from "../../const/link";
-import { RepusdMark } from "img";
+import { RepusdMark } from "../../img";
 
 import "./style.css";
 

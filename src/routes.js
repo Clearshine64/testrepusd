@@ -4,7 +4,7 @@ import { Layout } from "antd";
 
 import LandingPage from "./pages/LandingPage";
 import HeaderComponent from "./components/HeaderComponent";
-// import FooterComponent from "./components/FooterComponent";
+import FooterComponent from "./components/FooterComponent";
 
 const { Header, Content, Footer } = Layout;
 
@@ -20,8 +20,7 @@ const Routes = (props) => {
         </Switch>
       </Content>
       <Footer className="footer">
-        <h1>footer</h1>
-        {/* <FooterComponent /> */}
+        <FooterComponent />
       </Footer>
     </Layout>
   );
