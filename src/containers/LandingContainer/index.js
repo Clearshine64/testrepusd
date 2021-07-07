@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import LandingComponent from 'components/LandingComponent';
+import LandingComponent from "../../components/LandingComponent";
 
-const LandingContanier =  (props) => {
-    
-    return (
-        <LandingComponent  />
-    );
-}
+const LandingContanier = (props) => {
+  return <LandingComponent />;
+};
 
 export default LandingContanier;

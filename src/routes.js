@@ -2,7 +2,7 @@ import React from "react";
 // import { Route, Switch } from "react-router-dom";
 import { Layout } from "antd";
 
-// import LandingPage from "./pages/LandingPage";
+import LandingPage from "./pages/LandingPage";
 import HeaderComponent from "./components/HeaderComponent";
 // import FooterComponent from "./components/FooterComponent";
 
@@ -15,10 +15,9 @@ const Routes = (props) => {
         <HeaderComponent />
       </Header>
       <Content>
-        <h1>content</h1>
-        {/* <Switch>
+        <Switch>
           <Route exact path="/" component={LandingPage} />
-        </Switch> */}
+        </Switch>
       </Content>
       <Footer className="footer">
         <h1>footer</h1>
