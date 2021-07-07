@@ -18,7 +18,6 @@ const App = () => {
   return (
     <Provider store={store}>
       {
-        // <h1>welcome</h1>
         <Router>
           <Routes />
         </Router>
