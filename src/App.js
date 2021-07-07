@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes";
 
 // Redux
@@ -18,10 +18,10 @@ const App = () => {
   return (
     <Provider store={store}>
       {
-        <h1>welcome</h1>
-        /* <Router>
-        <Routes />
-        </Router> */
+        // <h1>welcome</h1>
+        <Router>
+          <Routes />
+        </Router>
       }
     </Provider>
   );
