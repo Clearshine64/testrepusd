@@ -15,27 +15,28 @@ export default () => {
   };
 
   return (
-    <>
-      <div className="logo">
-        <img src={RepusdSmallMark} />
-      </div>
-      <Menu
-        theme="dark"
-        mode="horizontal"
-        //defaultSelectedKeys={["1"]}
-        className="menu"
-      >
-        {NavbarList.map((item, index) => {
-          return (
-            <Menu.Item key={index}>
-              <a href={item.url}>{item.title}</a>
-            </Menu.Item>
-          );
-        })}
-      </Menu>
-      <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
-        {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-      </Button>
-    </>
+    <h1>HeaderComponent</h1>
+    // <>
+    //   <div className="logo">
+    //     <img src={RepusdSmallMark} />
+    //   </div>
+    //   <Menu
+    //     theme="dark"
+    //     mode="horizontal"
+    //     //defaultSelectedKeys={["1"]}
+    //     className="menu"
+    //   >
+    //     {NavbarList.map((item, index) => {
+    //       return (
+    //         <Menu.Item key={index}>
+    //           <a href={item.url}>{item.title}</a>
+    //         </Menu.Item>
+    //       );
+    //     })}
+    //   </Menu>
+    //   <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
+    //     {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+    //   </Button>
+    // </>
   );
 };

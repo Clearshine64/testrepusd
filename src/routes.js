@@ -12,13 +12,13 @@ const Routes = (props) => {
   return (
     <Layout className="container">
       <Header className="header">
-        <h1>header</h1>
-        {/* <HeaderComponent /> */}
+        <HeaderComponent />
       </Header>
       <Content>
-        <Switch>
+        <h1>content</h1>
+        {/* <Switch>
           <Route exact path="/" component={LandingPage} />
-        </Switch>
+        </Switch> */}
       </Content>
       <Footer className="footer">
         <h1>footer</h1>
