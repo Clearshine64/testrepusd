@@ -35,7 +35,7 @@ export default () => {
       </Menu> */}
       <Button onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
         icon
-        {/* {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />} */}
+        {!menuFoldState ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
       </Button>
     </>
   );
