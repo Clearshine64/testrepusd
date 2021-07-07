@@ -17,9 +17,12 @@ const store = configureStore(initialState, history);
 const App = () => {
   return (
     <Provider store={store}>
-      <Router>
+      {
+        <h1>welcome</h1>
+        /* <Router>
         <Routes />
-      </Router>
+        </Router> */
+      }
     </Provider>
   );
 };
