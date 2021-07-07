@@ -4,7 +4,7 @@ import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
 import NavbarList from "../../const/navbar";
 
-import { RepusdSmallMark } from "img";
+import { RepusdSmallMark } from "../../img";
 import "./style.css";
 
 export default () => {

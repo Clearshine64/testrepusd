@@ -3,7 +3,7 @@ import React from "react";
 import { Layout } from "antd";
 
 // import LandingPage from "pages/LandingPage";
-// import HeaderComponent from "./components/HeaderComponent";
+import HeaderComponent from "./components/HeaderComponent";
 // import FooterComponent from "./components/FooterComponent";
 
 const { Header, Content, Footer } = Layout;
@@ -12,14 +12,14 @@ const Routes = (props) => {
   return (
     <Layout className="container">
       <Header className="header">
-        <h1>header</h1>
-        {/* <HeaderComponent /> */}
+        <HeaderComponent />
       </Header>
-      {/* <Content>
-        <Switch>
+      <Content>
+        <h1>content</h1>
+        {/* <Switch>
           <Route exact path="/" component={LandingPage} />
-        </Switch>
-      </Content> */}
+        </Switch> */}
+      </Content>
       <Footer className="footer">
         <h1>footer</h1>
         {/* <FooterComponent /> */}
