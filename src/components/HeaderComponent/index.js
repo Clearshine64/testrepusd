@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 // import NavbarList from "../../const/navbar";
 
-// import { RepusdSmallMark } from "../../img";
+import { RepusdSmallMark } from "../../img";
 import "./style.css";
 
 export default () => {
@@ -16,7 +16,9 @@ export default () => {
 
   return (
     <>
-      <div className="logo">{/* <img src={RepusdSmallMark} /> */}</div>
+      <div className="logo">
+        <img src={RepusdSmallMark} />
+      </div>
       {/* <Menu
         theme="dark"
         mode="horizontal"
