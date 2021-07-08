@@ -11,11 +11,11 @@ export default () => {
     <Row>
       <Col span={2}></Col>
       <Col span={20} className="main-footer">
-        <Row>
+        {/* <Row>
           <Col lg={8} xs={24} md={8} className="mark-container">
             <img src={RepusdMark} />
           </Col>
-          {/* {LinkList.map((linkGroup, index) => (
+          {LinkList.map((linkGroup, index) => (
             <Col lg={4} xs={24} md={8} key={index} className="link-group">
               <span>{linkGroup.name}</span>
               {linkGroup.childLink.map((link, index) => (
@@ -25,8 +25,8 @@ export default () => {
                 </a>
               ))}
             </Col>
-          ))} */}
-        </Row>
+          ))}
+        </Row> */}
         <Divider className="footer-divider" />
         <div className="copyright-container">
           <p className="copyright">2021 myapp.com All rights reserved.</p>
